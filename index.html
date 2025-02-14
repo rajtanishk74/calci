@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body bgcolor="pink">
+    <!-- basic calculator -->
+    <fieldset>
+        <legend><h1>Calculator</h1></legend>
+    <fieldset >
+        <legend><h2>Addition</h2></legend>
+    <form oninput="result.value =parseInt(num1.value)+parseInt(num2.value)">
+        <input type="number" id="num1" placeholder="Enter first number">
+        <br> + <br>
+        <input type="number" id="num2" placeholder="Enter second number">
+        <br> = <br>
+        <output name="result" id="result" for="num1 num2"></output>
+
+    </form>
+    </fieldset>
+
+    <fieldset>
+        <legend><h2>Substraction</h2></legend>
+    <form oninput="result.value =parseInt(num1.value)-parseInt(num2.value)" >
+        <input type="number" id="num1" placeholder="Enter first number">
+        <br> - <br>
+        <input type="number" id="num2" placeholder="Enter second number">
+        <br> = <br>
+        <output name="result" id="result" for="num1 num2"></output>
+
+    </form>
+</fieldset>
+<fieldset>
+    <legend><h2>Multiply</h2></legend>
+    <form oninput="result.value =parseInt(num1.value)*parseInt(num2.value)">
+        <input type="number" id="num1" placeholder="Enter first number">
+        <br> x <br>
+        <input type="number" id="num2" placeholder="Enter second number">
+        <br> = <br>
+        <output name="result" id="result" for="num1 num2"></output>
+
+    </form>
+</fieldset>
+<fieldset>
+    <legend><h2>Divisify</h2></legend>
+    <form oninput="result.value =parseInt(num1.value)/parseInt(num2.value)">
+        <input type="number" id="num1" placeholder="Enter first number">
+        <br> / <br>
+        <input type="number" id="num2" placeholder="Enter second number">
+        <br> = <br>
+        <output name="result" id="result" for="num1 num2"></output>
+
+    </form>
+</fieldset>
+</fieldset>
+</body>
+</html>
